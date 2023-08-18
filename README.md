@@ -16,10 +16,13 @@ This assignment is for building a multiple linear regression model for the predi
 They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
 Which variables are significant in predicting the demand for shared bikes.
 How well those variables describe the bike demand
-- Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
-- What is the dataset that is being used?
+- Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
+- Business Goal:
+You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Dataset and Data Dictionary
+- day.csv (dataset)
+- Readme.txt (data dictionary)
 
 ## Conclusions
 - Conclusion 1 from the analysis
@@ -35,21 +38,9 @@ How well those variables describe the bike demand
 - library - version 2.0
 - library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by mahalakshmibhatk@gmail.com - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
