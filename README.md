@@ -25,18 +25,33 @@ You are required to model the demand for shared bikes with the available indepen
 - Readme.txt (data dictionary)
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+We used Recursive Feature Elimination for selecting the variables :
+Then we removed based on below criteria.
+High p-value and high VIF - remove the variable
+High p-value and low VIF - remove next
+Low p-value and high VIF - remove after the 1st 2 steps
+Low p-value and low VIF - Keep the variables
+After following the above steps of elimination our model gave us an R-Square value of 85 percent.
+Variables Significance
+cnt = 0.2889 + (0.2272)yr + (0.0510)workingday + (-0.1162)windspeed +(-0.1082)spring+(0.0612)winter+(-0.0443)Dec+(-0.0456)Jan+(0.0670)Saturday+(-0.1825)Light Rain/Thunderstorm+(-0.1683)hum+(0.4272)temp+(0.0542)Sep+(0.0664)Saturday
+considering variables 'temp','hum','windspeed' and 'cnt' are normalized using min-max scaler b/w the values 0-1.
+Statistically significant and important predictor variables are as follows:
+1 yr
+2 workingday
+3 temp
+4 hum
+5 windspeed
+6 spring
+7 winter
+8 Dec
+9 Jan
+10 Sep
+11 Saturday
+12 Light Rain/Thunderstorm
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
 
 
